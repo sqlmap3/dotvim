@@ -1,3 +1,42 @@
 [submodule "bundle/verilog_systemverilog"]
 	path = bundle/verilog_systemverilog
 	url = https://github.com/vhda/verilog_systemverilog.vim.git
+[submodule "/root/dotvim/bundle/hl_matchit.vim"]
+	path = /root/dotvim/bundle/hl_matchit.vim
+	url = https://github.com/vimtaku/hl_matchit.vim.git
+[submodule "/root/dotvim/bundle/supertab"]
+	path = /root/dotvim/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "/root/dotvim/bundle/nerdcommenter"]
+	path = /root/dotvim/bundle/nerdcommenter
+	url = https://github.com/preservim/nerdcommenter.git
+[submodule "/root/dotvim/bundle/vim-easymotion"]
+	path = /root/dotvim/bundle/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion.git
+[submodule "/root/dotvim/bundle/bufexplorer"]
+	path = /root/dotvim/bundle/bufexplorer
+	url = https://github.com/jlanzarotta/bufexplorer.git
+[submodule "/root/dotvim/bundle/auto-pairs"]
+	path = /root/dotvim/bundle/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "/root/dotvim/bundle/vim-multiple-cursors"]
+	path = /root/dotvim/bundle/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "/root/dotvim/bundle/vim-airline"]
+	path = /root/dotvim/bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "/root/dotvim/bundle/vim-airline-themes"]
+	path = /root/dotvim/bundle/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "/root/dotvim/bundle/snipmate.vim"]
+	path = /root/dotvim/bundle/snipmate.vim
+	url = https://github.com/msanders/snipmate.vim.git
+[submodule "/root/dotvim/bundle/vim-indent-object"]
+	path = /root/dotvim/bundle/vim-indent-object
+	url = https://github.com/michaeljsmith/vim-indent-object
+[submodule "/root/dotvim/bundle/vim-easygrep"]
+	path = /root/dotvim/bundle/vim-easygrep
+	url = https://github.com/WeiChungWu/vim-easygrep.git
+[submodule "/root/dotvim/bundle/taglist"]
+	path = /root/dotvim/bundle/taglist
+	url = https://github.com/yegappan/taglist.git
