@@ -1,0 +1,32 @@
+pkgname: uctags
+version: 2023.10.23
+summary: Maintained ctags implementation
+web-url: https://ctags.io/
+git-url: https://github.com/universal-ctags/ctags
+git-sha: 35abbb13491d0906af78d1ec13116292fa5015f1
+dep-pkg: jansson libyaml libxml2 libiconv
+license: GPL-2.0-or-later
+dep-upp: git gmake gm4 perl autoconf automake
+bsystem: autogen
+binbstd: no
+install: |
+    if [ "$NATIVE_OS_KIND" = darwin ] ; then
+        configure --disable-static
+    else
+        configure
+    fi
+parallel: yes
+build-on:
+    os-arch: x86_64
+    os-kind: linux
+    os-type: linux
+    os-libc: musl
+    os-code: alpine
+    os-name: Alpine Linux
+    os-vers: 3.16.7
+    os-ncpu: 2
+    os-euid: 0
+    os-egid: 0
+build-for: x86_64-linux-unknown
+signature: ppkg-0.2.5
+timestamp: 1698043767
