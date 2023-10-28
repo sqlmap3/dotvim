@@ -40,3 +40,18 @@
 [submodule "/root/dotvim/bundle/taglist"]
 	path = /root/dotvim/bundle/taglist
 	url = https://github.com/yegappan/taglist.git
+[submodule "/root/dotvim/bundle/vim-addon-mw-utils"]
+	path = /root/dotvim/bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "/root/dotvim/bundle/tlib_vim"]
+	path = /root/dotvim/bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "/root/dotvim/bundle/vim-snipmate"]
+	path = /root/dotvim/bundle/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate.git
+[submodule "/root/dotvim/bundle/vim-snippets"]
+	path = /root/dotvim/bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "/root/dotvim/bundle/vim-SystemVerilog"]
+	path = /root/dotvim/bundle/vim-SystemVerilog
+	url = https://github.com/WeiChungWu/vim-SystemVerilog.git

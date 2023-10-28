@@ -1,9 +1,24 @@
 " For pathogen.vim: auto load all plugins in .vim/bundle
 execute pathogen#infect()
+
+"open syntax highlight
+syntax enable
 syntax on
+"indent based on filetype
 filetype plugin indent on
 filetype on
+
+
+"set cursorline
+"vim self_cmd complete smartly
+set wildmenu
+set showcmd
+"""""""""fold set""""""""""""""""
 set foldmethod=syntax
+set foldcolumn=2
+highlight Folded guibg=grey guifg=blue
+highlight FoldColumn guibg=black guifg=white
+
 let g:SuperTabDefaultCompletionType = 'context'
 set tags=tags;
 let g:airline_theme='angr'
@@ -16,6 +31,38 @@ set ru
 set nu
 set nobackup
 set noswapfile
+
+"""""""""""""""""""""<search setting>"""""""""""""""""""""""
+"Override the 'ignorecase' option if the search pattern contains upper
+"case characters.  Only used when the search pattern is typed and
+"'ignorecase' option is on. 
+set incsearch
+set hls
+"set ignorecase
+set ignorecase smartcase
+"set infercase
+
+""""""""""""""""""""<color scheme setting>""""""""""""""""""
+""vim color scheme setting 
+if has("gui_running")
+    set background=dark
+    colorscheme desert    
+    "colorscheme solarized
+else
+    colorscheme molokai
+endif
+
+"""""""""""""""""""""""""set match pairs"""""""""""""""""""""""
+set showmatch
+"How many tenths of a second to blink
+set matchtime=5
+
+"set guicursor=n:block-blinkoff0
+"""""""""""""<set for chinese support>""""""""""""""""""""""""""
+":language ja_JP.eucJP
+":let &termencoding = &encoding
+":set termencoding=euc-jp
+set fileencodings=utf-8,gbk,big5,euc-jp,gb2312
 
 let g:airline_powerline_fonts = 1
 let b:match_ignorecase=0
@@ -47,9 +94,10 @@ nnoremap <leader>I :VerilogFollowPort<CR>
 nnoremap <leader>u :VerilogGotoInstanceStart<CR>
 
 
+let g:winManagerWindowLayout='FileExplorer'
+nmap <F3> :WMToggle<cr>
 
-
-
+set cscopetag
 
 
 " Use Vim settings, rather then Vi settings (much better!).
@@ -325,3 +373,25 @@ function! ToggleColorScheme()
   endif
 endfunction
 nmap <silent> <F6> :call ToggleColorScheme()<CR>:redraw!<CR>
+
+
+""""""""""""""""""""""<gui_font_setting>""""""""""""""""""
+set linespace=1
+if has("gui_running")
+        if has("gui_gtk2")
+                ":set guifont=Bitstream\ Vera\ Sans\ Mono\ 11
+                ":set guifont=Courier\ 16,mendium\ 16
+                ":set guifont=Courier\ 12,fixed\ 12,\ 7x13
+                :set guifont=Monospace\ 13
+        elseif has("x11")
+                "also for GTK 1
+                :set guifont=-Courier_10_Pitch-Medium-R-Normal--14-110-70-70-C-75-ISO8859-1
+        elseif has("gui_win32")
+                :set guifont=Luxi_mono:h12:cANSI
+        endif
+endif
+
+"""""""""""""""""""""status columbar""""""""""""""""""""""""
+set laststatus =2
+"highlight StatusLine guifg=SlateBlue guibg=Yellow
+highlight StatusLine guifg=SlateBlue guibg=Gray
