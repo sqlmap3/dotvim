@@ -55,3 +55,12 @@
 [submodule "/root/dotvim/bundle/vim-SystemVerilog"]
 	path = /root/dotvim/bundle/vim-SystemVerilog
 	url = https://github.com/WeiChungWu/vim-SystemVerilog.git
+[submodule "/root/dotvim/bundle/winmanager"]
+	path = /root/dotvim/bundle/winmanager
+	url = https://github.com/vim-scripts/winmanager.git
+[submodule "/root/dotvim/bundle/uvm_gen"]
+	path = /root/dotvim/bundle/uvm_gen
+	url = https://github.com/hjking/uvm_gen.git
+[submodule "/root/dotvim/bundle/tagbar"]
+	path = /root/dotvim/bundle/tagbar
+	url = https://github.com/preservim/tagbar.git
