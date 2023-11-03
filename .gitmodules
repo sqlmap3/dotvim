@@ -67,3 +67,69 @@
 [submodule "/root/dotvim/bundle/indent-line"]
 	path = /root/dotvim/bundle/indent-line
 	url = https://github.com/Yggdroot/indentLine.git
+[submodule "bundle/hl_matchit.vim"]
+	path = bundle/hl_matchit.vim
+	url = https://github.com/vimtaku/hl_matchit.vim.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/preservim/nerdcommenter.git
+[submodule "bundle/vim-easymotion"]
+	path = bundle/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion.git
+[submodule "bundle/bufexplorer"]
+	path = bundle/bufexplorer
+	url = https://github.com/jlanzarotta/bufexplorer.git
+[submodule "bundle/auto-pairs"]
+	path = bundle/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "bundle/vim-multiple-cursors"]
+	path = bundle/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "bundle/vim-airline-themes"]
+	path = bundle/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "bundle/snipmate.vim"]
+	path = bundle/snipmate.vim
+	url = https://github.com/msanders/snipmate.vim.git
+[submodule "bundle/vim-indent-object"]
+	path = bundle/vim-indent-object
+	url = https://github.com/michaeljsmith/vim-indent-object
+[submodule "bundle/vim-easygrep"]
+	path = bundle/vim-easygrep
+	url = https://github.com/WeiChungWu/vim-easygrep.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = https://github.com/yegappan/taglist.git
+[submodule "bundle/vim-addon-mw-utils"]
+	path = bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "bundle/tlib_vim"]
+	path = bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "bundle/vim-snipmate"]
+	path = bundle/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate.git
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "bundle/vim-SystemVerilog"]
+	path = bundle/vim-SystemVerilog
+	url = https://github.com/WeiChungWu/vim-SystemVerilog.git
+[submodule "bundle/winmanager"]
+	path = bundle/winmanager
+	url = https://github.com/vim-scripts/winmanager.git
+[submodule "bundle/uvm_gen"]
+	path = bundle/uvm_gen
+	url = https://github.com/hjking/uvm_gen.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/preservim/tagbar.git
+[submodule "bundle/indent-line"]
+	path = bundle/indent-line
+	url = https://github.com/Yggdroot/indentLine.git
