@@ -468,5 +468,8 @@ set laststatus =2
 highlight StatusLine guifg=SlateBlue guibg=Gray
 
 
-
+""""""""""""""""""""indentLine—char""""""""""""""""""""""""""
 let g:indentLine_char='¦'
+"""""""""""""""""""""""gui options"""""""""""""""""""""""""""
+set wrap
+set guioptions+=b
