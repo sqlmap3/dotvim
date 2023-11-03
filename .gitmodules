@@ -64,3 +64,6 @@
 [submodule "/root/dotvim/bundle/tagbar"]
 	path = /root/dotvim/bundle/tagbar
 	url = https://github.com/preservim/tagbar.git
+[submodule "/root/dotvim/bundle/indent-line"]
+	path = /root/dotvim/bundle/indent-line
+	url = https://github.com/Yggdroot/indentLine.git
